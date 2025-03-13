@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     cursor: default;
@@ -6,11 +6,11 @@
 }
 
 
-.none{
+.none {
     display: none;
 }
 
-body{
+body {
     background-color: #ebebeb;
     display: flex;
     flex-direction: column;
@@ -27,28 +27,28 @@ body{
 /*  ESTILIZAÇÃO DA NAVBAR */
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
 
-.navbar-container{
+.navbar-container {
     background-color: #59554E;
     height: 3rem;
     width: 100%;
     position: fixed;
-    top: 0; 
+    top: 0;
     left: 0;
-    z-index: 100;     
+    z-index: 100;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 
-}   
+}
 
 nav ul {
     list-style-type: none;
     display: flex;
 }
 
-nav ul li{
+nav ul li {
     margin: 0 80px;
     font-family: Plus Jakarta Sans;
     font-size: 15px;
@@ -56,38 +56,41 @@ nav ul li{
     font-weight: bold;
 }
 
-nav ul li:hover{
-    color:  #ffffff;
-    cursor: pointer;
-}
-
-.material-icons{
-    color: #F3F4E5;
-}
-
-.material-icons:hover{
+nav ul li:hover {
     color: #ffffff;
     cursor: pointer;
 }
+
+.material-icons {
+    color: #F3F4E5;
+}
+
+.material-icons:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* ESTILIZAÇÃO SOBRE-MIM */
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
 
-.project-title{
+.project-title {
     background-color: #F3F4E5;
     color: #59554E;
     width: 100%;
     height: 15rem;
-    display: flex; 
+    display: flex;
     flex-direction: row;
     gap: 15rem;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */    
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
 
 }
 
-.title{
+.title {
     font-family: DM Serif Display;
     text-align: center;
     letter-spacing: 1.2px;
@@ -95,12 +98,12 @@ nav ul li:hover{
     border-bottom: 0.1px solid #b29f8f;
 }
 
-.title:hover{
+.title:hover {
     color: #3e3b37;
     cursor: default;
 }
 
-.subtitle{
+.subtitle {
     font-family: Plus Jakarta Sans;
     font-size: 15px;
     letter-spacing: 1.2px;
@@ -112,7 +115,7 @@ nav ul li:hover{
     display: flex;
 }
 
-.pdf-download{
+.pdf-download {
     height: 6rem;
     width: 18rem;
     border-radius: 15px;
@@ -124,11 +127,11 @@ nav ul li:hover{
     border: 1px solid #b29f8f;
 }
 
-.pdf-download:hover{
+.pdf-download:hover {
     border: 3px solid #b29f8f;
 }
 
-.pdf-text{
+.pdf-text {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -140,17 +143,17 @@ nav ul li:hover{
 }
 
 .fa-file {
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
-.pdf-title{
+.pdf-title {
     font-family: Plus Jakarta Sans;
     font-size: 1rem;
     color: #59554E;
     letter-spacing: 1.2px;
 }
 
-.pdf-click-text{
+.pdf-click-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,7 +164,7 @@ nav ul li:hover{
     border-radius: 15px;
 }
 
-.pdf-container{
+.pdf-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -170,11 +173,11 @@ nav ul li:hover{
 }
 
 
- 
+
 
 /* Estilização título portfólio de atividades */
 
-.me-text{
+.me-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,7 +185,7 @@ nav ul li:hover{
     max-width: 30rem;
 }
 
-.me-text h1{
+.me-text h1 {
     font-family: DM Serif Display;
     font-size: 4rem;
     letter-spacing: 1.2px;
@@ -190,7 +193,7 @@ nav ul li:hover{
     font-weight: 600;
 }
 
-.me-text h3{
+.me-text h3 {
     font-family: Plus Jakarta Sans;
     font-size: 1.2rem;
     letter-spacing: 1.2px;
@@ -198,29 +201,29 @@ nav ul li:hover{
     font-weight: 600;
 }
 
-.me-container img{
+.me-container img {
     width: 25rem;
     border-radius: 10px;
     transition: 0.5s;
 }
 
-.me-container img:hover{
+.me-container img:hover {
     transform: scale(1.1);
 }
 
-.me-container{
+.me-container {
     display: flex;
     padding: 3rem;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background-color: #E2E3D9 ;
+    background-color: #E2E3D9;
 }
 
 /* Estilização do quem sou eu */
 
-.quem-sou-eu{
-    background-color: #F3F4E5;  
+.quem-sou-eu {
+    background-color: #F3F4E5;
     padding: 3rem;
     display: flex;
     align-items: center;
@@ -228,7 +231,7 @@ nav ul li:hover{
     height: 20rem;
 }
 
-.quem-sou-eu h1{
+.quem-sou-eu h1 {
     background-color: #59554E;
     padding: 2rem;
     border-radius: 10px;
@@ -236,7 +239,7 @@ nav ul li:hover{
     color: #E2E3D9;
 }
 
-.quem-sou-eu h3{
+.quem-sou-eu h3 {
     width: 31rem;
     margin-left: 5rem;
     font-family: Plus Jakarta Sans;
@@ -245,17 +248,17 @@ nav ul li:hover{
     color: #59554E;
 }
 
-.quem-sou-eu h3 span{
+.quem-sou-eu h3 span {
     color: #b29f8f;
 }
 
-.study-title{
+.study-title {
     display: flex;
     justify-content: center;
     background-color: #E2E3D9;
 }
 
-.study-title h1{
+.study-title h1 {
     font-family: DM Serif Display;
     font-size: 2rem;
     letter-spacing: 1.2px;
@@ -264,7 +267,7 @@ nav ul li:hover{
     padding: 20px;
 }
 
-.study-images{
+.study-images {
     display: flex;
     justify-content: center;
     gap: 2rem;
@@ -274,33 +277,35 @@ nav ul li:hover{
     box-sizing: border-box;
 }
 
-.study-images img{
+.study-images img {
     width: 15rem;
     margin: 0 1rem;
     border-radius: 10px;
     transition: 0.2s;
 }
 
-.study-images img:hover{
+.study-images img:hover {
     transform: scale(1.05);
 }
 
-.me-description{
+.me-description {
     display: flex;
     justify-content: center;
     background-color: #F3F4E5;
     padding: 3rem;
     align-items: center;
-    gap: 5rem; ;
+    gap: 5rem;
+    ;
 }
 
-.text1{
+.text1 {
     font-family: Plus Jakarta Sans;
     font-size: 1.3rem;
     font-weight: 600;
     color: #59554E;
     height: 18rem;
-    width: 40rem; /* Pode ajustar a largura conforme o layout */
+    width: 40rem;
+    /* Pode ajustar a largura conforme o layout */
     background-color: #E2E3D9;
     padding: 2rem;
     display: flex;
@@ -308,7 +313,7 @@ nav ul li:hover{
     justify-content: center;
     text-align: justify;
     overflow: hidden;
-    
+
 }
 
 .text2 {
@@ -317,7 +322,8 @@ nav ul li:hover{
     font-weight: 600;
     color: #59554E;
     height: 18rem;
-    width: 40rem; /* Pode ajustar a largura conforme o layout */
+    width: 40rem;
+    /* Pode ajustar a largura conforme o layout */
     background-color: #E2E3D9;
     padding: 2rem;
     display: flex;
@@ -328,14 +334,14 @@ nav ul li:hover{
 }
 
 
-.my-life{
+.my-life {
     display: flex;
     justify-content: center;
     background-color: #59554E;
     color: #E2E3D9;
 }
 
-.my-life-text{
+.my-life-text {
     font-size: 1rem;
     letter-spacing: 1.2px;
     background-color: #59554E;
@@ -346,18 +352,18 @@ nav ul li:hover{
     padding-bottom: 2rem;
 }
 
-.my-life-text p{
+.my-life-text p {
     width: 80%;
     margin: 0 auto;
     text-align: justify;
 }
 
-.my-life h1{
+.my-life h1 {
     font-family: DM Serif Display;
-    
+
 }
 
-.my-goal-title{
+.my-goal-title {
     display: flex;
     justify-content: center;
     background-color: #E2E3D9;
@@ -367,11 +373,11 @@ nav ul li:hover{
     padding-bottom: 1rem;
 }
 
-.my-goal-title h1{
+.my-goal-title h1 {
     font-family: DM Serif Display;
 }
 
-.my-goal-content{
+.my-goal-content {
     background-color: #E2E3D9;
     width: 100%;
     display: flex;
@@ -380,7 +386,7 @@ nav ul li:hover{
     gap: 3rem;
 }
 
-.my-goal-text{
+.my-goal-text {
     color: #59554E;
     width: 40%;
     text-align: justify;
@@ -395,7 +401,7 @@ nav ul li:hover{
     margin: 0 rem;
 }
 
-.my-goal-images{
+.my-goal-images {
     display: flex;
     justify-content: center;
     gap: 4rem;
@@ -403,14 +409,14 @@ nav ul li:hover{
 
 .my-goal-images img {
     width: 100%;
-    max-width: 20rem; 
+    max-width: 20rem;
     height: auto;
-    display: block; 
+    display: block;
     object-fit: contain;
     transition: 0.5s;
 }
 
-.my-goal-images img:hover{
+.my-goal-images img:hover {
     transform: scale(1.05);
 }
 
@@ -430,12 +436,12 @@ nav ul li:hover{
     font-size: 0.8rem;
     color: #E2E3D9;
     font-weight: 600;
-    text-align: center; 
+    text-align: center;
 }
 
 .footer-icon {
     color: #E2E3D9;
-    font-size: 1rem; 
+    font-size: 1rem;
     cursor: pointer;
     align-items: center;
     cursor: pointer;
@@ -450,18 +456,18 @@ nav ul li:hover{
 
 /* ESTILIZAÇÃO PROJETOS */
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
-.project-header-container{
+.project-header-container {
     background-color: #F3F4E5;
     color: #59554E;
     width: 100%;
     height: 12rem;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 10rem;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
 }
 
-.project-header-text{
+.project-header-text {
     width: 25rem;
     text-align: center;
     font-size: 1.5rem;
@@ -472,7 +478,7 @@ nav ul li:hover{
     border: 2px solid #b29f8f;
 }
 
-.github-link{
+.github-link {
     display: flex;
     gap: 0.5rem;
     align-items: center;
@@ -484,27 +490,30 @@ nav ul li:hover{
     background-color: #F3F4E5;
 }
 
-.github-link:hover{
+.github-link:hover {
     background-color: #989389;
     color: #ebebeb;
     border: 2px solid #ebebeb;
 }
 
-.github-link, .fa-brands, .fa-square-github, .github-link p{
+.github-link,
+.fa-brands,
+.fa-square-github,
+.github-link p {
     cursor: pointer;
 }
 
-.project-description-container{
-    background-color:#E2E3D9;
+.project-description-container {
+    background-color: #E2E3D9;
     color: #b29f8f;
     width: 100%;
     height: 5rem;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.project-description{
+.project-description {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -517,8 +526,8 @@ nav ul li:hover{
 
 .github-projects-container {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
     background-color: #F3F4E5;
     padding-top: 2rem;
     padding-left: 10rem;
@@ -529,9 +538,9 @@ nav ul li:hover{
 
 .github-projects {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 5rem; 
-    justify-items: center; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
+    justify-items: center;
 }
 
 .projects-size {
@@ -557,24 +566,26 @@ nav ul li:hover{
     width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto; /* Centraliza a imagem */
+    margin: 0 auto;
+    /* Centraliza a imagem */
     border-radius: 8px;
     border: 5px solid #E2E3D9;
     transition: 0.7s;
 
 }
 
-.projects-size img:hover{
+.projects-size img:hover {
     cursor: pointer;
     transform: scale(1.02);
 }
+
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* ESTILIZAÇÃO CONTATO */
 /* -------------------------------------------------------------------------------------------------------------------------------------- */
 
-.contact-container{
-    display:  flex;
+.contact-container {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -582,15 +593,15 @@ nav ul li:hover{
     height: calc(100vh - 15rem);
 }
 
-.contact-header{
+.contact-header {
     background-color: #F3F4E5;
     color: #59554E;
     width: 100%;
     height: 10rem;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    gap: 10rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
     font-family: 'DM Serif Display';
 }
 
@@ -608,25 +619,25 @@ nav ul li:hover{
     border-radius: 1rem;
 }
 
-.social-icon img{
+.social-icon img {
     height: 3rem;
     width: 3rem;
 }
 
-.social-icon{
+.social-icon {
     display: flex;
     align-items: center;
     width: 100%;
     color: #59554E;
 }
 
-.social-icon p{
+.social-icon p {
     font-family: 'Plus Jakarta Sans';
     padding-left: 1rem;
     font-size: 1.1rem;
 }
 
-.link p:hover{
+.link p:hover {
     cursor: pointer;
     color: #b29f8f;
 }
@@ -635,7 +646,7 @@ nav ul li:hover{
 /* RESPONSIVIDADE */
 
 /* Media query para telas menores que 480px (celulares em modo retrato) */
-@media (max-width: 480px){
+@media (max-width: 480px) {
 
     .title {
         font-size: 2rem;
@@ -665,13 +676,13 @@ nav ul li:hover{
         font-size: 1.3rem;
     }
 
-    .my-goal-content{
+    .my-goal-content {
         margin-bottom: ppx;
     }
 }
 
 
- @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     body {
         padding-top: 2rem;
         font-size: 14px;
@@ -682,17 +693,17 @@ nav ul li:hover{
         height: 2.5rem;
     }
 
-     nav ul {
+    nav ul {
         align-items: center;
         gap: 5rem;
         transform: scale(0.9);
-        
+
     }
 
     nav ul li {
         margin: 10px 0;
         font-size: 12px;
-    } 
+    }
 
 
     .project-title {
@@ -742,13 +753,14 @@ nav ul li:hover{
         padding: 2rem 1rem;
     }
 
-    .text1, .text2 {
+    .text1,
+    .text2 {
         width: 90%;
         height: auto;
         padding: 1.5rem;
     }
 
-    .my-life h1{
+    .my-life h1 {
         font-size: 1.8rem;
         text-align: center;
     }
@@ -773,12 +785,132 @@ nav ul li:hover{
         gap: 2.5rem;
     }
 
-    .footer-container{
+    .footer-container {
         margin: none;
     }
 
-    .footer-text, .footer-icon {
-        font-size: 10px; 
+    .footer-text,
+    .footer-icon {
+        font-size: 10px;
     }
 
-} 
+    /* ------------------------------------------------------ */
+    /* ABA DE PROJETOS */
+
+    .project-header-container {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .project-header-text {
+        width: 80%;
+        font-size: 1rem;
+    }
+
+    .github-link {
+        font-size: 1.5rem;
+    }
+
+    .project-description {
+        font-size: 0.75rem;
+    }
+
+    .github-projects-container {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .github-projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .projects-size {
+        padding: 15px;
+        border-radius: 10px;
+        text-align: center;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .projects-size a {
+        text-decoration: none;
+        color: #333;
+        display: block;
+    }
+
+    .projects-size img {
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .projects-size p {
+        margin-top: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    /* ABA CONTATO */
+
+    
+     .contact-header h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+    } 
+    
+     .contact-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        max-width: 600px;
+        height: calc(100vh - 14rem);
+        
+    } 
+    
+    .contact-content {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 90%;
+    }
+    
+    .social-icon {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #E2E3D9;
+    }
+
+    .social-icon p{
+        font-size: 12px;
+    }
+    
+    
+    .social-icon img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .link {
+        text-decoration: none;
+        color: #333;
+        font-size: 1rem;
+        word-break: break-all;
+    }
+    
+    .link p {
+        margin: 0;
+    }
+
+}
