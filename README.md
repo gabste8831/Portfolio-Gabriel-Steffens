@@ -1,4 +1,4 @@
-# Portfolio Gabriel Steffens
+# Portfólio de Atividades - Gabriel Steffens
 
 - Este repositório contém o meu portfólio pessoal, onde apresento alguns dos meus projetos, habilidades e formas de contato.
 - Trata-se de um dos meus primeiros projetos, portando, em meio ao desenvolvimento, percebi diversas formas de otimização de código, estrutura, HTML semântico... Enfim, diversos fatores á serem desenvolvidos
