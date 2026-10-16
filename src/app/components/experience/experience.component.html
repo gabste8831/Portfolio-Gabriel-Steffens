@@ -14,7 +14,7 @@
         <div class="experiencia_conteudo">
           <div class="experiencia_cabecalho">
             <h3 class="experiencia_cargo">{{ exp.cargo }}</h3>
-            <p class="experiencia_empresa">{{ exp.empresa }}</p>
+            <p class="experiencia_empresa" *ngIf="exp.empresa">{{ exp.empresa }}</p>
           </div>
 
           <p class="experiencia_stack">{{ exp.stack.join(' · ') }}</p>

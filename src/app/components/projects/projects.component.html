@@ -19,7 +19,8 @@
             </div>
 
             <div class="projeto_acoes">
-              <a class="botao botao--fantasma projeto_botao" [href]="projeto.repoUrl" target="_blank" rel="noopener">
+              <a class="botao botao--fantasma projeto_botao" *ngIf="projeto.repoUrl" [href]="projeto.repoUrl" target="_blank"
+                rel="noopener">
                 Código
               </a>
               <a class="botao botao--link projeto_botao" *ngIf="projeto.deployUrl" [href]="projeto.deployUrl"

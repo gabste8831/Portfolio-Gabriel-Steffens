@@ -38,6 +38,13 @@
   margin-top: 40px;
 }
 
+.hero_links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  white-space: nowrap;
+}
+
 .hero_cta .botao--primario {
   padding: 0;
 }

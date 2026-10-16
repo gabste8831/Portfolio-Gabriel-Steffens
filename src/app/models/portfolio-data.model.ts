@@ -54,7 +54,8 @@ export interface ProjetoPortfolio {
   titulo: string;
   descricao: string;
   tecnologias: string[];
-  repoUrl: string;
+  /** Omitir quando o repositório for privado */
+  repoUrl?: string;
   deployUrl?: string;
   imagem: string;
 }

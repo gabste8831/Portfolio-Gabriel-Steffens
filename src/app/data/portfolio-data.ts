@@ -12,7 +12,7 @@ export const PERFIL: PerfilPessoal = {
   nome: 'Gabriel Steffens',
   cargoObjetivo: 'Desenvolvedor Full Stack',
   localizacao: 'Rio do Sul, SC',
-  idade: 22,
+  idade: 23,
   email: 'gabrielsteffens2003@gmail.com',
   telefone: '(47) 9 8831-3652',
   telefoneHref: 'tel:+5547988313652',
@@ -26,27 +26,41 @@ export const PERFIL: PerfilPessoal = {
   curriculoNomeArquivo: 'Curriculo_Gabriel_Steffens.pdf',
   resumo: [
     `Prazer, Gabriel Steffens!`,
-    `Sou dev full-stack, atualmente focado em arquiteturas Node.js e JavaScript pela Apresenta.me, onde atuo diretamente em processos de migração, modelagem e análise de dados.`,
-    `Estou na 8ª fase da graduação em Sistemas de Informação. Já fui dev front-end e somo mais de 3 anos de vivência com SEO, marketing digital e análise de comércio digital.`
+    `Sou dev full stack com foco no ecossistema Node.js e TypeScript: APIs com NestJS, interfaces com Next.js e React, apps com React Native e infraestrutura com Docker e AWS.`,
+    `Estou na 8ª fase da graduação em Sistemas de Informação. Já passei por front-end, migração de dados e e-commerce, o que me dá uma visão de produto e de negócio além do código.`
   ]
 };
 
 export const OBJETIVO_PROFISSIONAL =
-  'Atuar como desenvolvedor, aplicando princípios de engenharia de software na criação ' +
-  'de soluções, desde interfaces à estruturas de hospedagem. Busco alinhar a parte ' +
-  'técnica à visão estratégica de negócio, e assim evoluir na carreira em tecnologia.';
+  'Evoluir na área da tecnologia, atualmente no âmbito de desenvolvimento. Meu foco de ' +
+  'estudos, além da construção de sistemas e soluções, está em arquitetura de software, ' +
+  'infraestrutura em nuvem e IA aplicada, dentro do contexto de escalabilidade e resolução ' +
+  'real de problemas de negócio.';
 
 export const FATOS_RAPIDOS: FatoRapido[] = [
   { rotulo: 'localização', valor: PERFIL.localizacao },
   { rotulo: 'idade', valor: `${PERFIL.idade} anos` },
-  { rotulo: 'atuação', valor: 'Back-end · Node.js · ETL' },
+  { rotulo: 'atuação', valor: 'Full Stack · TypeScript · AWS' },
+  { rotulo: 'foco de estudos', valor: 'Arquitetura · Infra · IA' },
 ];
 
 export const EXPERIENCIAS: ExperienciaProfissional[] = [
   {
+    cargo: 'Desenvolvedor Full Stack',
+    empresa: 'Ale Tech',
+    periodo: 'Nov 2026 - Hoje',
+    stack: ['TypeScript', 'Node.js', 'NestJS', 'Next.js', 'React Native', 'Docker', 'AWS'],
+    destaques: [
+      'Desenvolvimento de APIs e serviços back-end em Node.js com NestJS e TypeScript.',
+      'Construção de interfaces web com Next.js e integração com aplicativos em React Native.',
+      'Conteinerização com Docker e atuação na infraestrutura em nuvem na AWS.',
+    ],
+    atual: true,
+  },
+  {
     cargo: 'Desenvolvedor Back-End - Migração de Dados',
     empresa: 'Apresenta.me - Sistema para Gestão Imobiliária',
-    periodo: 'Jan 2026 - Hoje',
+    periodo: 'Jan 2026 - Out 2026',
     stack: ['JavaScript', 'Node.js', 'PHP', 'MongoDB', 'PostgreSQL', 'IA aplicada ao dev'],
     destaques: [
       'Execução de scripts de migração de grandes volumes de dados (CRMs e sistemas financeiros), recebidos em XML, JSON, CSV e backups SQL/PostgreSQL.',
@@ -54,7 +68,7 @@ export const EXPERIENCIAS: ExperienciaProfissional[] = [
       'Mapeamento e análise de campos para validação, testes e deploy em produção.',
       'Uso de IA como apoio à refatoração de código e aceleração de entregas.',
     ],
-    atual: true,
+    atual: false,
   },
   {
     cargo: 'Desenvolvedor Front-End Pleno III',
@@ -84,6 +98,13 @@ export const EXPERIENCIAS: ExperienciaProfissional[] = [
 
 export const PROJETOS: ProjetoPortfolio[] = [
   {
+    titulo: 'Mapill - App de Adesão a Medicamentos',
+    descricao: 'Aplicativo Android que lembra, registra e avisa antes do remédio acabar: alarmes com o celular bloqueado, leitura de código de barras pela base da Anvisa (CMED), controle de estoque, histórico de adesão e relatório em PDF. Offline-first, com backup opcional em nuvem.',
+    tecnologias: ['React Native', 'Kotlin', 'SQLite', 'Supabase'],
+    deployUrl: 'https://mapill-website.vercel.app',
+    imagem: '/Mapill.png',
+  },
+  {
     titulo: 'Site TR Vicente',
     descricao: 'Landing page institucional para uma empresa de transporte de cargas, com informações sobre a empresa, serviços, contato e formulário de orçamento.',
     tecnologias: ['Next.js', 'TypeScript', 'CSS', 'React'],
@@ -100,13 +121,6 @@ export const PROJETOS: ProjetoPortfolio[] = [
     imagem: '/Site_Handebol.png',
   },
   {
-    titulo: 'Plataforma FreelaCloud',
-    descricao: 'Plataforma desenvolvida para conectar profissionais autônomos a clientes que precisam de serviços - Projeto acadêmico.',
-    tecnologias: ['Next.js', 'Tailwind', 'PostgreSQL', 'Prisma', 'Javascript', 'Docker'],
-    repoUrl: `${PERFIL.github}/Plataforma-Freelancers-com-NextJS-e-Docker`,
-    imagem: '/FreelaCloud.png',
-  },
-  {
     titulo: 'InsuGuia Mobile',
     descricao: 'Aplicativo como protótipo de um sistema de suporte à decisão clínica (CDSS) no manejo de pacientes internados não-críticos com diabetes - Projeto acadêmico.',
     tecnologias: ['Flutter', 'Dart', 'SQLite', 'Figma'],
@@ -118,15 +132,15 @@ export const PROJETOS: ProjetoPortfolio[] = [
 export const HABILIDADES: GrupoDeHabilidades[] = [
   {
     categoria: 'Linguagens & Runtimes',
-    itens: ['JavaScript (ES6+)', 'Node.js', 'TypeScript', 'PHP'],
+    itens: ['TypeScript', 'JavaScript (ES6+)', 'Node.js', 'PHP'],
   },
   {
     categoria: 'Back-End & Arquitetura',
-    itens: ['Express', 'Laravel', 'APIs REST', 'ETL & Migração de Dados', 'Supabase (BaaS)'],
+    itens: ['NestJS', 'Express', 'APIs REST', 'Supabase (BaaS)', 'Laravel', 'ETL & Migração de Dados'],
   },
   {
     categoria: 'Front-End & Mobile',
-    itens: ['React.js', 'React Native', 'Vue.js', 'Angular', 'HTML5', 'CSS3'],
+    itens: ['React.js', 'Next.js', 'React Native', 'Vue.js', 'Angular', 'HTML5', 'CSS3'],
   },
   {
     categoria: 'Bancos de Dados',
