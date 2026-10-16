@@ -47,7 +47,7 @@ export const FATOS_RAPIDOS: FatoRapido[] = [
 export const EXPERIENCIAS: ExperienciaProfissional[] = [
   {
     cargo: 'Desenvolvedor Full Stack',
-    empresa: 'Ale Tech',
+    empresa: 'Ale Tech - Educação e Tecnologia',
     periodo: 'Nov 2026 - Hoje',
     stack: ['TypeScript', 'Node.js', 'NestJS', 'Next.js', 'React Native', 'Docker', 'AWS'],
     destaques: [
